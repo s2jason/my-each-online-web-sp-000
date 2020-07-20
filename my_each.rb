@@ -1,5 +1,8 @@
 def my_each(array) # put argument(s) here
-  array.collect do 
+  i = 0
+  
+  while i < array.length
+    yield(array[i])
     
   end
   array
