@@ -1,5 +1,5 @@
 def my_each(array) # put argument(s) here
-  array.collect
+  array.collect do 
     
   end
   array
