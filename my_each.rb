@@ -6,7 +6,6 @@ def my_each(array) # put argument(s) here
     
   end
   array
-  # code here
 end
 
 my_each(['hi','hello','bye','goodbye']) do |i|
